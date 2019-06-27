@@ -3986,11 +3986,20 @@ li.feature-2 {
     height: 35px;
     position: relative
 }
+
+.wechatInner img {
+    border-radius: 0;
+    width: 121px;
+    height: auto;
+    padding: 0;
+    background: 0 0
+}
+
 .wechatInner {
     width: 121px;
     height: 121px;
     padding: 10px;
-    background: rgba(227, 223, 223, 0.4);
+    background: rgba(0, 0, 0, .4);
     top: 40px;
     left: -40px;
     -webkit-transform: translate3d(0, 50px, 0);
@@ -3998,6 +4007,16 @@ li.feature-2 {
     opacity: 0
 }
 
+.wechatInner:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, .4) transparent
+}
 
 .wechatInner {
     position: absolute;
@@ -4021,13 +4040,7 @@ li.feature-2 {
     height:35px;
     position:relative
 }
-.InnerImg {
-    border-radius:2px;
-    width:110px;
-    height:100px;
-    padding:0;
-    background:none
-}
+
 .qqInner {
     width:121px;
     height:121px;
@@ -4048,6 +4061,15 @@ li.feature-2 {
     -moz-transition:.7s all linear;
     -o-transition:.7s all ease;
     -ms-transition:.7s all ease
+}
+
+.qqInner img {
+    
+    border-radius: 0;
+    width: 100px !important;
+    height: 110 !important;
+    padding: 0;
+    background: 0 0
 }
 .qq:hover .qqInner {
     -webkit-transform:translate3d(0,16px,0);
