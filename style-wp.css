@@ -3981,7 +3981,6 @@ li.feature-2 {
     font-family: Ubuntu, sans-serif;
     font-weight: 400
 }
-
 .wechat {
     width: 35px;
     height: 35px;
@@ -4000,7 +3999,7 @@ li.feature-2 {
     width: 121px;
     height: 121px;
     padding: 10px;
-    background: rgba(255, 255, 255,.4);
+    background: rgba(0, 0, 0, .4);
     top: 40px;
     left: -40px;
     -webkit-transform: translate3d(0, 50px, 0);
@@ -4008,16 +4007,6 @@ li.feature-2 {
     opacity: 0
 }
 
-.wechatInner:before {
-    content: "";
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    margin-left: -15px;
-    border-width: 15px;
-    border-style: solid;
-    border-color: transparent transparent rgba(255, 255, 255, .4) transparent
-}
 
 .wechatInner {
     position: absolute;
@@ -4059,16 +4048,7 @@ li.feature-2 {
     transform:translate3d(0,50px,0);
     opacity:0
 }
-.qqInner:before {
-    content:"";
-    position:absolute;
-    top:-30px;
-    left:50%;
-    margin-left:-15px;
-    border-width:15px;
-    border-style:solid;
-    border-color:transparent transparent rgba(227, 223, 223, 0.4) transparent
-}
+
 .qqInner {
     position:absolute;
     border-radius:5px;
@@ -4084,8 +4064,6 @@ li.feature-2 {
     opacity:1;
     visibility:visible
 }
-
-
 
 .top-social {
     height: 32px;
