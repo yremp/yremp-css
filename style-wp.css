@@ -3963,18 +3963,18 @@ li.feature-2 {
     box-sizing: initial;
     white-space: nowrap
 }
-/*
+
 .header-info:before {
     content: "";
     position: absolute;
-    top: 127px;
+    top: 128px;
     left: 50%;
     margin-left: -15px;
     border-width: 15px;
     border-style: solid;
-    border-color: transparent transparent rgba(0, 0, 0, .5) transparent
+    border-color: transparent transparent rgba(255,255,255,.8) transparent
 }
-*/
+
 .header-info p {
     margin: 0;
     color: #605f5f;
