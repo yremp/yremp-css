@@ -3977,8 +3977,9 @@ li.feature-2 {
 */
 .header-info p {
     margin: 0;
+    color: #605f5f;
     font-family: Ubuntu, sans-serif;
-    font-weight: 700
+    font-weight: 400
 }
 
 .top-social {
