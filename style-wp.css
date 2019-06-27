@@ -4022,13 +4022,13 @@ li.feature-2 {
     margin-right: 13px
 }
 
-.wechat {
+.qq {
     width: 35px;
     height: 35px;
     position: relative
 }
 
-.wechatInner img {
+.qqInner img {
     border-radius: 0;
     width: 121px;
     height: auto;
@@ -4036,7 +4036,7 @@ li.feature-2 {
     background: 0 0
 }
 
-.wechatInner {
+.qqInner {
     width: 121px;
     height: 121px;
     padding: 10px;
@@ -4048,7 +4048,7 @@ li.feature-2 {
     opacity: 0
 }
 
-.wechatInner:before {
+.qqInner:before {
     content: "";
     position: absolute;
     top: -30px;
@@ -4059,7 +4059,7 @@ li.feature-2 {
     border-color: transparent transparent rgba(227, 223, 223, 0.4) transparent
 }
 
-.wechatInner {
+.qqInner {
     position: absolute;
     border-radius: 8px;
     transition: .7s all ease;
@@ -4069,7 +4069,7 @@ li.feature-2 {
     -ms-transition: .7s all ease
 }
 
-.wechat:hover .wechatInner {
+.qq:hover .qqInner {
     -webkit-transform: translate3d(0, 16px, 0);
     transform: translate3d(0, 16px, 0);
     opacity: 1;
