@@ -3853,7 +3853,7 @@ li.feature-2 {
 }
 
 .focusinfo .header-tou img {
-    box-shadow: inset 0 0 10px #000;
+    box-shadow: inset 0 0 10px #fff;
     padding: 5px;
     opacity: 1;
     transform: rotate(0);
@@ -3967,7 +3967,8 @@ li.feature-2 {
 .header-info:before {
     content: "";
     position: absolute;
-    top: 128px;
+    top: 128
+    px;
     left: 50%;
     margin-left: -15px;
     border-width: 15px;
