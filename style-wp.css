@@ -4120,59 +4120,7 @@ li.feature-2 {
     margin-right: 13px
 }
 
-.wechat {
-    width: 35px;
-    height: 35px;
-    position: relative
-}
 
-.wechatInner img {
-    border-radius: 0;
-    width: 121px;
-    height: auto;
-    padding: 0;
-    background: 0 0
-}
-
-.wechatInner {
-    width: 121px;
-    height: 121px;
-    padding: 10px;
-    background: rgba(0, 0, 0, .4);
-    top: 40px;
-    left: -40px;
-    -webkit-transform: translate3d(0, 50px, 0);
-    transform: translate3d(0, 50px, 0);
-    opacity: 0
-}
-
-.wechatInner:before {
-    content: "";
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    margin-left: -15px;
-    border-width: 15px;
-    border-style: solid;
-    border-color: transparent transparent rgba(0, 0, 0, .4) transparent
-}
-
-.wechatInner {
-    position: absolute;
-    border-radius: 8px;
-    transition: .7s all ease;
-    -webkit-transition: .7s all ease;
-    -moz-transition: .7s all linear;
-    -o-transition: .7s all ease;
-    -ms-transition: .7s all ease
-}
-
-.wechat:hover .wechatInner {
-    -webkit-transform: translate3d(0, 16px, 0);
-    transform: translate3d(0, 16px, 0);
-    opacity: 1;
-    visibility: visible
-}
 
 .searchbox {
     float: right;
