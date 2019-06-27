@@ -3967,8 +3967,7 @@ li.feature-2 {
 .header-info:before {
     content: "";
     position: absolute;
-    top: 128
-    px;
+    top: 128px;
     left: 50%;
     margin-left: -15px;
     border-width: 15px;
