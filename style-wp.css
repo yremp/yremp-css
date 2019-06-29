@@ -8444,3 +8444,6 @@ td.hljs-ln-numbers {
 }#video-add {
     /*display:none !important*/
 }
+p.comment-form-cookies-consent {
+    display: none;
+}
