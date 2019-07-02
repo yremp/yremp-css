@@ -8408,7 +8408,7 @@ td.hljs-ln-numbers {
 #banner_wave_1 {
     width:auto;
     height:65px;
-    background:url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wave1.png") repeat-x;
+    background:url("https://cdn.jsdelivr.net/gh/yremp/resource@2.0/img/other/wave1.png") repeat-x;
     _filter:alpha(opacity=80);
     position:absolute;
     bottom:0;
@@ -8417,12 +8417,13 @@ td.hljs-ln-numbers {
     z-index:5;
     opacity:1;
     transiton-property:opacity,bottom;
-    transition-duration:.4s,.4s
+    transition-duration:.10s,.10s;
+    -webkit-animation:wave1 90s infinite;
 }
 #banner_wave_2 {
     width:auto;
     height:80px;
-    background:url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wave2.png") repeat-x;
+    background:url("https://cdn.jsdelivr.net/gh/yremp/resource@2.0/img/other/wave2.png") repeat-x;
     _filter:alpha(opacity=80);
     position:absolute;
     bottom:0;
@@ -8431,7 +8432,8 @@ td.hljs-ln-numbers {
     z-index:4;
     opacity:1;
     transiton-property:opacity,bottom;
-    transition-duration:.4s,.4s
+    transition-duration:.10s,.10s;
+    -webkit-animation:wave2 90s infinite;
 }
 .banner_wave_hide,.banner_wave_hide_fit_skin {
     opacity:0 !important;
@@ -8439,8 +8441,25 @@ td.hljs-ln-numbers {
 }
 @media(max-width:860px) {
     #banner_wave_1,#banner_wave_2 {
-    display:none
+    display:inline-block;
 }
+
+
+@-webkit-keyframes wave1/*Safari and Chrome*/
+{
+0% { left:-1500px;bottom:-5px}
+	50%{ left:0px;bottom:0px}
+	100%{ left:-1500px;bottom:-5px}
+}
+
+@-webkit-keyframes wave2
+{
+0% { left:-1450px}
+	50%{ left:0px}
+	100%{left:-1450px}
+
+}
+
 }#video-add {
     /*display:none !important*/
 }
