@@ -7755,11 +7755,14 @@ a.toc-link {
 }
 
 .insert-image-button {
+    position:relative;
     opacity: 0;
     width: 46px !important;
     height: 46px !important;
     margin: 0 !important;
     padding: 0 !important;
+	top:10px;
+	right:-46px;
     float: right;
     transform: translateY(-46px);
     cursor: pointer
