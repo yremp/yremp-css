@@ -8407,7 +8407,34 @@ td.hljs-ln-numbers {
   background: #ddd;
   color: black;
 }
+@-webkit-keyframes wave1/*Safari and Chrome*/
+{
+0% { left:-1500px;bottom:-5px}
+	50%{ left:0px;bottom:0px}
+	100%{ left:-1500px;bottom:-5px}
+}
 
+@-webkit-keyframes wave2
+{
+0% { left:-1450px}
+	50%{ left:0px}
+	100%{left:-1450px}
+
+}
+@keyframes wave1/*Safari and Chrome*/
+{
+0% { left:-1500px;bottom:-5px}
+	50%{ left:0px;bottom:0px}
+	100%{ left:-1500px;bottom:-5px}
+}
+
+@keyframes wave2
+{
+0% { left:-1450px}
+	50%{ left:0px}
+	100%{left:-1450px}
+
+}
 #banner_wave_1 {
     width:auto;
     height:65px;
@@ -8420,7 +8447,7 @@ td.hljs-ln-numbers {
     z-index:5;
     opacity:1;
     transiton-property:opacity,bottom;
-    transition-duration:.10s,.10s;
+    animation:wave1 90s infinite;
     -webkit-animation:wave1 90s infinite;
 }
 #banner_wave_2 {
@@ -8435,7 +8462,7 @@ td.hljs-ln-numbers {
     z-index:4;
     opacity:1;
     transiton-property:opacity,bottom;
-    transition-duration:.10s,.10s;
+    animation:wave2 90s infinite;
     -webkit-animation:wave2 90s infinite;
 }
 .banner_wave_hide,.banner_wave_hide_fit_skin {
@@ -8445,22 +8472,6 @@ td.hljs-ln-numbers {
 @media(max-width:860px) {
     #banner_wave_1,#banner_wave_2 {
     display:inline-block;
-}
-
-
-@-webkit-keyframes wave1/*Safari and Chrome*/
-{
-0% { left:-1500px;bottom:-5px}
-	50%{ left:0px;bottom:0px}
-	100%{ left:-1500px;bottom:-5px}
-}
-
-@-webkit-keyframes wave2
-{
-0% { left:-1450px}
-	50%{ left:0px}
-	100%{left:-1450px}
-
 }
 
 }#video-add {
