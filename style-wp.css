@@ -846,7 +846,6 @@ a:hover {
         font-size: 26px
     }
 }
-
 .pattern-center-sakura {
     position: relative;
     top: 0;
@@ -1582,7 +1581,9 @@ i.iconfont.hotpost {
     .post-list-thumb {
         padding: 0;
         border: 0;
-        box-shadow: none
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 0 1px 25px -8px rgba(0, 0, 0, .5);
+        margin-bottom: 30px;
     }
     .float-content,
     .post-content-wrap,
