@@ -1,20 +1,21 @@
 .message box {
-    
+
     position: fixed;
     left: 220px;
     bottom: 300px;
     width: 150px;
-    height:50px;
+    height: 50px;
     z-index: 99999;
     opacity: 1;
-    pointer-events:none;
+    pointer-events: none;
     color: #eaeadf;
-    background: rgba(255,255,255,.6);
+    background: rgba(255, 255, 255, .6);
 }
-.message p{
 
-    margin:0;
+.message p {
+
+    margin: 0;
     color: #605f5f;
-    font-family:'Ubuntu',sans-serif;
-    font-weight:300
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300
 }
