@@ -3837,18 +3837,6 @@ li.feature-2 {
     background-size:100% auto;
     z-index: -1
 }
-/* 顶部菜单ipad响应式 */
-@media (max-width:1300px) {
-	.navbar{
-		font-size:12px;
-	}
-	.site-title{
-		display:none;
-	}
-	.centerbg {
- background-size:100% auto;
-	}
-}
 
 @media (max-width: 860px) {
     #centerbg {
